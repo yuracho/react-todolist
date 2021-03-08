@@ -1,0 +1,11 @@
+.Todos {
+  width: 500px;
+  margin: 10px auto;
+  background: cornflowerblue;
+}
+.Todos h1 {
+  font-size: 50px;
+  color: cornsilk;
+  text-align: center;
+  padding: 25px 0;
+}
