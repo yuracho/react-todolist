@@ -1,7 +1,8 @@
 .TodoForm {
   text-align: center;
   padding: 40px 0;
-  background: #000;
+  background: skyblue;
+  font-style: normal;
 }
 .TodoForm input {
   width: 350px;
@@ -17,4 +18,7 @@
   width: 100px;
   height: 50px;
   margin-left: 5px;
+  border: 1px solid #dcdcdc;
+  color: #fff;
+  background: #333;
 }
