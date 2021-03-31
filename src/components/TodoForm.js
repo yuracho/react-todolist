@@ -12,8 +12,6 @@ const TodoForm = ({ onAdd }) => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-
-    //데이터 값 전달 props
     onAdd(text);
     setText("");
     textRef.current.focus();
@@ -24,7 +22,7 @@ const TodoForm = ({ onAdd }) => {
       <input
         type="text"
         ref={textRef}
-        placeholder="할 일을 입력 후, Enter 를 누르세요"
+        placeholder="입력 후, 추가 버튼을 누르세요"
         value={text}
         onChange={onText}
       />
