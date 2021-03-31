@@ -22,10 +22,12 @@
 .TodoList ul li span.on {
   color: darkcyan;
   text-decoration: line-through;
+  font-style: normal;
 }
 .TodoList ul li em {
   margin-left: 100px;
   font-size: 30px;
+  font-style: normal;
 }
 .TodoList ul li em.on {
   color: darkcyan;
