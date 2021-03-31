@@ -19,3 +19,4 @@ const TodoItem = ({ todo, onRemove, onToggle }) => {
 };
 
 export default TodoItem;
+
