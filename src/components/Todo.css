@@ -1,11 +1,10 @@
-.Todos {
-  width: 500px;
+.todo {
   margin: 10px auto;
-  background: cornflowerblue;
 }
-.Todos h1 {
+.todo h1 {
+  width: 100%;
   font-size: 50px;
-  color: cornsilk;
+  color: skyblue;
   text-align: center;
   padding: 25px 0;
 }
