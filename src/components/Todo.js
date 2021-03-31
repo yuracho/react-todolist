@@ -23,20 +23,6 @@ const Todo = () => {
     setTodos(newData);
   };
 
-  const onToggle1 = (id) => {
-    const newData = todos.map((todo) => {
-      if (todo.id === id) {
-        return {
-          ...todo,
-          done: !todo.done,
-        };
-      } else {
-        return todo;
-      }
-    });
-    setTodos(newData);
-  };
-
   const onToggle = (id) => {
     const newData = todos.map((todo) =>
       todo.id === id ? { ...todo, done: !todo.done } : todo
